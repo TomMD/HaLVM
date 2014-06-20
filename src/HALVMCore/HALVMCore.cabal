@@ -58,7 +58,7 @@ library
   ghc-options:      -Wall -fno-warn-orphans
   cc-options:       -nostdinc
   include-dirs:     cbits/include
-  c-sources:        cbits/domain_info.c cbits/io.c
+  c-sources:        cbits/domain_info.c cbits/io.c cbits/hypercall_stubs.c cbits/val_stubs.c cbits/fun_stubs.c
 --                     Util.WaitSet,
 --                     Hypervisor.EventWaitSet,
 --                     Hypervisor.BufferChan,

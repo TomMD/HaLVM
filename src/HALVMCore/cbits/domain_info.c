@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include <xen/xen.h>
 
-extern start_info_t *system_start_info;
+start_info_t *system_start_info __attribute__((weak));
 
 char *get_magic_string_ptr(void)
 {
